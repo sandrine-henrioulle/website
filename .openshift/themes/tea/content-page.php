@@ -1,5 +1,4 @@
 <?php /** * The template used for displaying page content in page.php * * @package ThemeGrill * @subpackage Spacious * @since Spacious 1.0 */ ?>
-<h1>yAaaiiiaaa</h1>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
     <?php do_action( 'spacious_before_post_content' ); ?>
     <div class="entry-content clearfix">

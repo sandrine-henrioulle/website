@@ -72,7 +72,7 @@
           <div class="header-post-title-container clearfix">
             <div class="inner-wrap">
               <div class="post-title-wrapper">
-                <?php if( '' !=s pacious_header_title() ) { ?>
+                <?php if( '' !=spacious_header_title() ) { ?>
                 <h1 class="header-post-title-class"><?php echo spacious_header_title(); ?></h1>
                 <?php } ?>
               </div>

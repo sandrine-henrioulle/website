@@ -976,6 +976,7 @@ li.default-menu {
   float: left;
   max-width: 100%;
   padding-right: 30px;
+  display: none;
 }
 .header-post-title-class {
   font-size: 22px;

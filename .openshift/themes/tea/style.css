@@ -3,7 +3,7 @@ Theme Name: Spacious
 Theme URI: http://themegrill.com/themes/spacious
 Author: ThemeGrill
 Author URI: http://themegrill.com
-Description: Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 6 page templates, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/spacious/. Available Translations: Russian, Norsk (BokmÃ¥l), Czech, French, Spanish, Lithuanian, Dutch, Traditional Chinese (Taiwan), Slovak and Catalan.
+Description: Spacious is an incredibly spacious multipurpose responsive theme coded & designed with a lot of care and love. You can use it for your business, portfolio, blogging or any type of site. It has 4 page layouts, 6 page templates, 13 widgets areas, 5 custom widgets focusing on business template, awesome slider, primary color option to match your logo & website, boxed & wide layout, light & dark color skin, translation ready and many more. You can get free support in http://themegrill.com/support-forum/ and check the demo at http://demo.themegrill.com/spacious/. Available Translations: Russian, Norsk (Bokmål), Czech, French, Spanish, Lithuanian, Dutch, Traditional Chinese (Taiwan), Slovak and Catalan.
 Version: 1.1.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -597,8 +597,7 @@ body {
   border-bottom: 1px solid #EAEAEA;
 }
 #header-text-nav-container {
-  border-bottom: 1px solid #333;
-  background-color: #333333;
+  border-bottom: 1px solid #EAEAEA;
 }
 #header-text-nav-wrap {
   padding-top: 15px;
@@ -621,7 +620,7 @@ body {
   padding: 10px 20px 0 0;
 }
 #site-title a {
-  color: #fff;
+  color: #444444;
   font-size: 36px;
 }
 h1#site-title {
@@ -634,7 +633,7 @@ h1#site-title {
   line-height: 24px;
   font-size: 16px;
   padding-bottom: 0;
-  color: #999999;
+  color: #666666;
 }
 #header-right-section {
   float: right;
@@ -711,7 +710,7 @@ li.default-menu {
   display: none;
 }
 .main-navigation a {
-  color: #999;
+  color: #444444;
   display: block;
   float: left;
   padding: 16px 0 0;

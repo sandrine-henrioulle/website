@@ -20,7 +20,23 @@
                 <div class="section">
                     <div class="section-text">
                         <?php get_template_part( 'content', 'page' ); ?>
+                        
+                        <?php
+                        
+                        // Set up the objects needed
+                        $my_wp_query = new WP_Query();
+                        $all_wp_pages = $my_wp_query->query(array('post_type' => 'page'));
 
+                        // Get the page as an Object
+                        //$portfolio =  get_page_by_title('Services');
+                        // Filter through all pages and find Portfolio's children
+                        $portfolio_children = get_page_children( 17, $all_wp_pages );
+                        //$portfolio->ID
+
+                        // echo what we get back from WP to the browser
+                        echo '<pre>' . print_r( $portfolio_children, true ) . '</pre>';
+                        
+                        ?>
                         <?php
                             do_action( 'spacious_before_comments_template' );
                             // If comments are open or we have at least one comment, load up the comment template

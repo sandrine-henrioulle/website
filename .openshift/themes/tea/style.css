@@ -582,8 +582,8 @@ body {
     max-width: 1218px;
 }
 .wide-1218 .inner-wrap {
-    /* max-width: 1218px; */
-    max-width: 100%;
+    max-width: 1218px;
+    /*max-width: 100%;*/
 }
 .narrow-978 .inner-wrap {
     max-width: 978px;
@@ -2226,9 +2226,12 @@ a#scroll-up:hover {
         padding: 2px 5px;
     }
 }
+
+
 div.section {
     border-bottom: solid 1px #bebebe;
     background-color: #6f6f6f;
+    text-align: center;
 }
 div.section label {
     border-radius: 3px;
@@ -2239,4 +2242,13 @@ div.section label {
 div.section.first {
     background-color: #6f6f6f;
     color: #fff;
+}
+
+div.section-text{
+    width: 80%;
+    display:inline-block;
+}
+
+.inner-wrap-content {
+    
 }

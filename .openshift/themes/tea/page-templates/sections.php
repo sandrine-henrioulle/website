@@ -43,7 +43,7 @@
                         <?php                     
                         }
                             // echo what we get back from WP to the browser
-                            echo '<pre>' . print_r( $portfolio_children, true ) . '</pre>';
+                          //  echo '<pre>' . print_r( $portfolio_children, true ) . '</pre>';
                         ?>
 			<?php endwhile; ?>
 

@@ -19,7 +19,7 @@
 			<?php while ( have_posts() ) : the_post(); ?>
                
                         <?php 
-                        //    get_template_part( 'content', 'page' ); 
+                            get_template_part( 'content', 'page' ); 
                         ?>
                         
                         <?php
@@ -30,27 +30,20 @@
 
                         // Get the page as an Object
                         //$portfolio =  get_page_by_title('Services');
+
                         // Filter through all pages and find Portfolio's children
                         $portfolio_children = get_page_children( 17, $all_wp_pages );
                         //$portfolio->ID
                         foreach($portfolio_children as $child_page){ ?>
-                            <div class="section <?php echo strtolower($child_page['post_name'])?>">
+                            <div class="section <?php echo strtolower($child_page->post_name)?>">
                                 <div class="section-text">
-                                    <?php echo $child_page['post_content']; ?>
+                                    <?php echo $child_page->post_content; ?>
                                 </div>
                             </div>
                         <?php                     
                         }
-                        // echo what we get back from WP to the browser
-                        echo '<pre>' . print_r( $portfolio_children, true ) . '</pre>';
-                        
-                        ?>
-                        <?php
-                            do_action( 'spacious_before_comments_template' );
-                            // If comments are open or we have at least one comment, load up the comment template
-                            if ( comments_open() || '0' != get_comments_number() )
-                                comments_template();					
-                        do_action ( 'spacious_after_comments_template' );
+                            // echo what we get back from WP to the browser
+                            echo '<pre>' . print_r( $portfolio_children, true ) . '</pre>';
                         ?>
 			<?php endwhile; ?>
 

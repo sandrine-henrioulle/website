@@ -17,9 +17,10 @@
 	<!-- <div id="primary"> -->
 		<div id="content" class="clearfix">
 			<?php while ( have_posts() ) : the_post(); ?>
-                <div class="section">
-                    <div class="section-text">
-                        <?php get_template_part( 'content', 'page' ); ?>
+               
+                        <?php 
+                        //    get_template_part( 'content', 'page' ); 
+                        ?>
                         
                         <?php
                         
@@ -32,7 +33,14 @@
                         // Filter through all pages and find Portfolio's children
                         $portfolio_children = get_page_children( 17, $all_wp_pages );
                         //$portfolio->ID
-
+                        foreach($portfolio_children as $child_page){ ?>
+                            <div class="section <?php echo strtolower($child_page['post_name'])?>">
+                                <div class="section-text">
+                                    <?php echo $child_page['post_content']; ?>
+                                </div>
+                            </div>
+                        <?php                     
+                        }
                         // echo what we get back from WP to the browser
                         echo '<pre>' . print_r( $portfolio_children, true ) . '</pre>';
                         
@@ -44,8 +52,6 @@
                                 comments_template();					
                         do_action ( 'spacious_after_comments_template' );
                         ?>
-                    </div>
-                </div>
 			<?php endwhile; ?>
 
 		</div><!-- #content -->

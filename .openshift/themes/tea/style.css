@@ -180,7 +180,7 @@ button,
 input,
 select,
 textarea {
-    color: #666666;
+    color: #000;
     font: 16px'Lato', sans-serif;
     line-height: 20px;
     word-wrap: break-word;
@@ -2230,18 +2230,18 @@ a#scroll-up:hover {
 
 
 div.section {
-    border-bottom: solid 1px #bebebe;
-    background-color: #6f6f6f;
     text-align: center;
+    padding-top: 1.4rem;
 }
 
 div.section table{
     display: inline-block;
     max-width:50%;
     margin-left:25%;
+    border: none;
 }
 
-div.section table td{
+div.section table td,div.section table th{
     background: #fff;
 }
 
@@ -2251,13 +2251,10 @@ div.section label {
     color: #fff;
     padding: 2px 3px;
 }
-div.section.first {
-    background-color: #6f6f6f;
-    color: #fff;
-}
+
 
 div.section.translation{
-    background-color: #FFA24D;
+    background-color: #20C05C;
 }
 
 div.section.proofreading{
@@ -2265,7 +2262,7 @@ div.section.proofreading{
 }
 
 div.section.redaction-synthesis{
-    background-color: #20C05C;
+    background-color: rgb(191, 191, 191);
 }
 
 div.section-text{

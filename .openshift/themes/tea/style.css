@@ -2261,11 +2261,11 @@ div.section.translation{
 }
 
 div.section.proofreading{
-    background-color: #EFF0EF;
+    background-color: inherit;
 }
 
 div.section.redaction-synthesis{
-    background-color: #FFF;
+    background-color: #20C05C;
 }
 
 div.section-text{

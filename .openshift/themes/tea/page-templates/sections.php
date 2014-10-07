@@ -36,11 +36,11 @@
                         //$portfolio->ID
                         foreach($portfolio_children as $child_page){ ?>
                             
-                            <div class="section <?php echo strtolower($child_page->post_name)?>">
+                            <div class="section <?php echo strtolower($child_page->post_title)?>">
                                 <div class="section-text">
                                     <?php 
-                                      echo $child_page->post_title; 
-                                    ?>
+                                    echo $child_page->post_content; 
+                                  ?>
                                 </div>
                             </div>
                         <?php                     

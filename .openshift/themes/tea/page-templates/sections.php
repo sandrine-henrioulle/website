@@ -39,9 +39,8 @@
                             <div class="section <?php echo strtolower($child_page->post_name)?>">
                                 <div class="section-text">
                                     <?php 
-                                      var_dump($child_page);
-                                                                    //echo $child_page->post_content; 
-                                  ?>
+                                      echo $child_page->post_title; 
+                                    ?>
                                 </div>
                             </div>
                         <?php                     

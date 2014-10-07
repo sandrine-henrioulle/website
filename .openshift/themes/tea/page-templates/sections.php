@@ -20,6 +20,8 @@
                
                         <?php 
                            // get_template_part( 'content', 'page' ); 
+                        $parentPageId = get_the_ID();
+                        echo($parentPageId);
                         ?>
                         
                         <?php
@@ -32,7 +34,7 @@
                         //$portfolio =  get_page_by_title('Services');
 
                         // Filter through all pages and find Portfolio's children
-                        $portfolio_children = get_page_children( 17, $all_wp_pages );
+                        $portfolio_children = get_page_children( $parentPageId, $all_wp_pages );
                         //$portfolio->ID
                         foreach($portfolio_children as $child_page){ ?>
                             <div class="section <?php echo strtolower($child_page->post_name)?>">

@@ -2238,6 +2238,9 @@ div.section table{
     display: inline-block;
     max-width:50%;
     margin-left:25%;
+}
+
+div.section table td{
     background: #fff;
 }
 

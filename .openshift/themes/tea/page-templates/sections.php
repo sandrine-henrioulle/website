@@ -19,9 +19,7 @@
 			<?php while ( have_posts() ) : the_post(); ?>
                
                         <?php 
-                           // get_template_part( 'content', 'page' ); 
                         $parentPageId = get_the_ID();
-                        echo($parentPageId);
                         ?>
                         
                         <?php
@@ -37,6 +35,7 @@
                         $portfolio_children = get_page_children( $parentPageId, $all_wp_pages );
                         //$portfolio->ID
                         foreach($portfolio_children as $child_page){ ?>
+                            print_r($child_page);
                             <div class="section <?php echo strtolower($child_page->post_name)?>">
                                 <div class="section-text">
                                     <?php echo $child_page->post_content; ?>

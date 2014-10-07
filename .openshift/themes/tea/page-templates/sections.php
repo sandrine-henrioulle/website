@@ -35,7 +35,7 @@
                         $portfolio_children = get_page_children( $parentPageId, $all_wp_pages );
                         //$portfolio->ID
                         foreach($portfolio_children as $child_page){ ?>
-                            print_r($child_page);
+                            var_dump($child_page);
                             <div class="section <?php echo strtolower($child_page->post_name)?>">
                                 <div class="section-text">
                                     <?php echo $child_page->post_content; ?>

@@ -2299,6 +2299,11 @@ div.section div.notice{
     
 }
 
+div.section ul{
+    overflow: hidden;
+    
+}
+
 div.section ul.pricing li{
     float:left; 
     margin-right:1.2rem; 
@@ -2307,6 +2312,8 @@ div.section ul.pricing li{
     background-color: #30F550; 
     padding:1rem;
     text-align:center; 
+    width: 120px;
+    height: 120px;
 }
 
 div.section ul.pricing li span.price{
@@ -2315,6 +2322,7 @@ div.section ul.pricing li span.price{
 
 div.section ul.pricing li span.description{
     color:#fff;
+    display: block;
 }
 
 div.section ul.pricing li h4{

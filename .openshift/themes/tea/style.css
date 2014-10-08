@@ -2247,27 +2247,27 @@ div.section table td,div.section table th{
 
 div.section label {
     border-radius: 3px;
-    background-color: #333;
+    background-color: #20C05C;
     color: #fff;
     padding: 2px 3px;
 }
 
 div.section.bio {
     background-color: #20C05C;
-    color: inherit
+    color: inherit;
 }
 
 div.section.different {
-    background-color: rgb(191, 191, 191);
+    background-color: #F1F1F1;
 }
 
 div.section.interested {
     background-color: #20C05C;
-    color:inherit
+    color:inherit;
 }
 
 div.section.translation{
-    background-color: rgb(191, 191, 191);
+    background-color: #F1F1F1;
 }
 
 div.section.proofreading{
@@ -2276,7 +2276,7 @@ div.section.proofreading{
 
 div.section.redaction-synthesis{
     background-color: #20C05C;
-    color: inherit
+    color: inherit;
 }
 
 div.section-text{
@@ -2297,4 +2297,26 @@ div.section div.notice{
 
 .inner-wrap-content {
     
+}
+
+div.section ul.pricing li{
+    float:left; 
+    margin-right:1.2rem; 
+    display:block;
+    border-radius:1em; 
+    background-color: #30F550; 
+    padding:1rem;
+    text-align:center; 
+}
+
+div.section ul.pricing li span.price{
+    color:#fff;
+}
+
+div.section ul.pricing li span.description{
+    color:#fff;
+}
+
+div.section ul.pricing li h4{
+    color:#fff;
 }

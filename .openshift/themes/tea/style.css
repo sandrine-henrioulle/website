@@ -2268,6 +2268,10 @@ div.section.interested {
     color:white;
 }
 
+div.section.why {
+    background-color: inherit;
+}
+
 div.section.translation{
     background-color: #F1F1F1;
 }

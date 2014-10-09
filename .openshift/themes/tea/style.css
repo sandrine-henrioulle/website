@@ -2254,7 +2254,7 @@ div.section label {
 
 div.section.bio {
     background-color: #20C05C;
-    color: inherit;
+    color: white;
 }
 
 div.section.different {
@@ -2263,7 +2263,7 @@ div.section.different {
 
 div.section.interested {
     background-color: #20C05C;
-    color:inherit;
+    color:white;
 }
 
 div.section.translation{
@@ -2316,18 +2316,24 @@ div.section ul.pricing li{
     padding:1rem;
     text-align:center; 
     width: 120px;
+    position: relative;
     height: 120px;
 }
 
 div.section ul.pricing li span.price{
     color:#fff;
+    position: absolute;
+    bottom: 40px;
+    left: 42%;
 }
 
 div.section ul.pricing li span.description{
     color:#fff;
     display: block;
+    position: absolute;
+    bottom: 12px;
 }
 
 div.section ul.pricing li h4{
-    color:#fff;
+    color:#F1F1F1;
 }

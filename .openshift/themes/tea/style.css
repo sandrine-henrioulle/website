@@ -2231,8 +2231,8 @@ a#scroll-up:hover {
 
 div.section {
     text-align: center;
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
+    padding-top: 3.4rem;
+    padding-bottom: 4.4rem;
 }
 
 div.section table{
@@ -2276,7 +2276,7 @@ div.section.proofreading{
 
 div.section.redaction-synthesis{
     background-color: #20C05C;
-    color: inherit;
+    color: white;
 }
 
 div.section-text{
@@ -2293,6 +2293,7 @@ div.section div.notice{
     margin-bottom: 1rem;
     font-style: italic;
     font-size: 0.9rem;
+    padding-bottom: 1.4rem;
 }
 
 .inner-wrap-content {
@@ -2301,6 +2302,8 @@ div.section div.notice{
 
 div.section ul{
     overflow: hidden;
+    padding-bottom: 1.4rem;
+    padding-top: 2.4rem;
     
 }
 

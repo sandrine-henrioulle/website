@@ -26,17 +26,19 @@
                         
                         // Set up the objects needed
                         $my_wp_query = new WP_Query();
-                        $all_wp_pages = $my_wp_query->query(array('post_type' => 'page'));
+                        $all_wp_pages = $my_wp_query->query(array('post_type' => 'page', 'post_parent' =>  $parentPageId,'post_status' => 'publish','orderby' => 'menu_order', 'order' => 'ASC'));
 
                         // Get the page as an Object
                         //$portfolio =  get_page_by_title('Services');
 
                         // Filter through all pages and find Portfolio's children
-                        $portfolio_children = get_page_children( $parentPageId, $all_wp_pages );
-                        var_dump($portfolio_children);
-                        var_dump($all_wp_pages);
+                        //$portfolio_children = get_page_children( $parentPageId, $all_wp_pages );
+                        //var_dump($portfolio_children);
+                        //var_dump($all_wp_pages);
                         //$portfolio->ID
-                        foreach($portfolio_children as $child_page){ ?>
+                        foreach($all_wp_pages as $child_page){
+                          //if($child_page->post_parent == $parentPageId){
+                          ?>
                             
                             <div class="section <?php echo strtolower($child_page->post_title)?>">
                                 <div class="section-text">
@@ -46,6 +48,7 @@
                                 </div>
                             </div>
                         <?php                     
+                        //}
                         }
                             // echo what we get back from WP to the browser
                           //  echo '<pre>' . print_r( $portfolio_children, true ) . '</pre>';

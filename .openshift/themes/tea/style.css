@@ -206,8 +206,9 @@ h1 {
     line-height: 36px;
 }
 h2 {
-    font-size: 28px;
-    line-height: 34px;
+    font-size: 30px;
+    line-height: 36px;
+    color: white,
 }
 h3 {
     font-size: 26px;
@@ -2233,6 +2234,7 @@ div.section {
     text-align: center;
     padding-top: 3.4rem;
     padding-bottom: 4.4rem;
+    background-color: #F1F1F1;
 }
 
 div.section table{
@@ -2287,6 +2289,11 @@ div.section-text{
 
 div.section-text pre{
     
+}
+
+div.section.contact{
+    background-color: #20C05C;
+    color: white;
 }
 
 div.section div.notice{

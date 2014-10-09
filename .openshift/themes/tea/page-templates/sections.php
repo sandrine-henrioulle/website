@@ -33,6 +33,8 @@
 
                         // Filter through all pages and find Portfolio's children
                         $portfolio_children = get_page_children( $parentPageId, $all_wp_pages );
+                        var_dump($portfolio_children);
+                        var_dump($all_wp_pages);
                         //$portfolio->ID
                         foreach($portfolio_children as $child_page){ ?>
                             

@@ -2249,9 +2249,10 @@ div.section table td,div.section table th{
 
 div.section label {
     border-radius: 3px;
-    background-color: #20C05C;
-    color: #fff;
-    padding: 2px 3px;
+    border: solid 1px #20C05C;
+    color: #20C05C;
+    padding: 3px;
+    margin-left: 2px;
 }
 
 div.section.bio {
@@ -2331,7 +2332,6 @@ div.section div.pricing ul li{
     padding:1rem;
     text-align:center; 
     width: 124px;
-    position: relative;
     height: 124px;
 }
 
@@ -2341,20 +2341,22 @@ div.section div.pricing ul li div{
 
 div.section div.pricing ul li span.price{
     color:#fff;
-    position: absolute;
-    bottom: 40px;
-    left: 42%;
 }
 
 div.section div.pricing ul li span.description{
     color:#fff;
-    display: block;
-    position: absolute;
-    bottom: 12px;
 }
 
 div.section div.pricing ul li h4{
     color:#F1F1F1;
 }
 
+/* ----------------------------------  Hire me  ----------------------------- */
 
+div.section .contact-info{
+border-radius: 3px;
+    border: solid 1px #fff;
+    color: #fff;
+    padding: 3px;
+    margin-left: 2px;
+}

@@ -2353,10 +2353,27 @@ div.section div.pricing ul li h4{
 
 /* ----------------------------------  Hire me  ----------------------------- */
 
-div.section .contact-info{
-border-radius: 3px;
+div.section div.contact-info {
+    text-align: center;
+    max-width: 50%;
+}
+
+div.section div.contact-info p{
+    border-radius: 3px;
     border: solid 1px #fff;
     color: #fff;
     padding: 3px;
     margin-left: 2px;
+    max-width: 200px;
+    display: inline-block;
+}
+
+div.section div.contact-info p i{
+    padding-right: 1rem;
+}
+
+div.section.contact{
+    background: url(/wp-content/themes/tea/inc/images/city_contact.jpg) #20C05C;
+    background-size: 110%;
+    background-position: 4% -187px;
 }

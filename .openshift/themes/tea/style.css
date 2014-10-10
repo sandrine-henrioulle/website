@@ -564,6 +564,7 @@ body {
 .wide-1218 {
     padding-top: 0;
     padding-bottom: 0;
+    
 }
 .wide-1218 #page {
     max-width: 100%;
@@ -1663,7 +1664,7 @@ li.default-menu {
 
 .footer-widgets-wrapper {
     background-color: #333333;
-    border-top: 1px solid #EAEAEA;
+    /* border-top: 0px solid #EAEAEA; */
 }
 .footer-widgets-area {
     padding-top: 30px;
@@ -2356,6 +2357,7 @@ div.section div.pricing ul li h4{
 div.section div.contact-info {
     text-align: center;
     max-width: 50%;
+    margin-top: 3.4rem;
 }
 
 div.section div.contact-info p{
@@ -2363,8 +2365,7 @@ div.section div.contact-info p{
     border: solid 1px #fff;
     color: #fff;
     padding: 3px;
-    margin-left: 2px;
-    max-width: 200px;
+    margin-left: 25px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.42);
 }
@@ -2378,6 +2379,7 @@ div.section.contact{
     background-size: 110%;
     background-position: 4% -181px;
     background-repeat: no-repeat;
+    height:14rem;
 }
 
 div.section.contact h2{

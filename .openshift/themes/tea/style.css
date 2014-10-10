@@ -2359,13 +2359,14 @@ div.section div.contact-info {
 }
 
 div.section div.contact-info p{
-    border-radius: 3px;
+    border-radius: 6px;
     border: solid 1px #fff;
     color: #fff;
     padding: 3px;
     margin-left: 2px;
     max-width: 200px;
     display: inline-block;
+    background-color: rgba(0, 0, 0, 0.42);
 }
 
 div.section div.contact-info p i{
@@ -2373,7 +2374,13 @@ div.section div.contact-info p i{
 }
 
 div.section.contact{
-    background: url(/wp-content/themes/tea/inc/images/city_contact.jpg) #20C05C;
+    background: url(/wp-content/themes/tea/inc/images/city_contact.jpg) #5f5e5e;
     background-size: 110%;
-    background-position: 4% -187px;
+    background-position: 4% -181px;
+    background-repeat: no-repeat;
 }
+
+div.section.contact h2{
+    font-size: 37px;
+}
+

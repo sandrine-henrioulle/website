@@ -2235,7 +2235,7 @@ a#scroll-up:hover {
 div.section {
     text-align: center;
     padding-top: 3.4rem;
-    padding-bottom: 4.4rem;
+    padding-bottom: 2.4rem;
     background-color: #F1F1F1;
 }
 
@@ -2263,7 +2263,9 @@ div.section.bio {
 }
 
 div.section.title-different {
-    background-color: #FFA300;
+    background-color: #3A3939;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
 }
 
 div.section.title-different .section.text {
@@ -2273,6 +2275,7 @@ div.section.title-different .section.text {
 
 div.section.different {
     background-color: #FFF;
+    padding-top: 1rem;
 }
 
 div.section.different div.square {

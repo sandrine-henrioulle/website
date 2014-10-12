@@ -2257,7 +2257,7 @@ div.section label {
 }
 
 div.section.bio {
-    background-color: #20C05C;
+    background-color: #FFA300;
     color: white;
 }
 
@@ -2265,8 +2265,17 @@ div.section.different {
     background-color: #F1F1F1;
 }
 
+div.section.different div.square {
+   float: left;
+}
+
+div.section.different div.square div {
+    border: solid 1px black;
+    border-radius: 50%; 
+}
+
 div.section.interested {
-    background-color: #20C05C;
+    background-color: #FFA300;
     color:white;
 }
 

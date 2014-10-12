@@ -2267,11 +2267,44 @@ div.section.different {
 
 div.section.different div.square {
    float: left;
+   width: 15rem;
+   display: inline-block;  
+    width: 25%;  
+    min-width: 250px;  
+    max-width: 300px;  
+    margin: 20px;  padding: 10px;  
+    text-align: center;  
+    vertical-align: top;
+   margin-left: 2rem;
 }
 
 div.section.different div.square div {
-    border: solid 1px black;
+    border: solid 2px black;
     border-radius: 50%; 
+    width: 150px;
+    height: 150px;
+}
+
+div.section.different div.square div i {
+    width: 30px;
+    height: 30px;
+    padding: 33px;
+    border-radius: 65px;
+    border: 2px solid #404040;
+}
+
+div.section.different div.square hr {
+    width: 75px;
+    height: 3px;
+    background-color: #fa5c4f;
+    border: none;
+    margin: 20px auto;
+}
+
+div.section.different div.square h1 {
+}
+
+div.section.different div.square p {
 }
 
 div.section.interested {

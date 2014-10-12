@@ -202,7 +202,8 @@ h6 {
     font-family: 'Lato', sans-serif;
 }
 h1 {
-    font-size: 30px;
+    font-size: 24px;
+    font-weight: bold;
     line-height: 36px;
 }
 h2 {
@@ -2261,47 +2262,64 @@ div.section.bio {
     color: white;
 }
 
+div.section.title-different {
+    background-color: #FFA300;
+}
+
+div.section.title-different .section.text {
+    text-align: center;
+    color: white;
+}
+
 div.section.different {
-    background-color: #F1F1F1;
+    background-color: #FFF;
 }
 
 div.section.different div.square {
    float: left;
    width: 15rem;
    display: inline-block;  
-    width: 25%;  
-    min-width: 250px;  
-    max-width: 300px;  
+    
+   width: 18%;  
+    
+   /* min-width: 250px; */  
+    
+   /* max-width: 300px; */  
     margin: 20px;  padding: 10px;  
-    text-align: center;  
+    
+   text-align: center;  
     vertical-align: top;
    margin-left: 2rem;
 }
 
 div.section.different div.square div {
-    border: solid 2px black;
-    border-radius: 50%; 
-    width: 150px;
-    height: 150px;
+    /* border: solid 2px black; */
+    /* border-radius: 50%; */ 
+    /* width: 150px; */
+    /* height: 150px; */
+    text-align: center;
+}
+
+div.section.different h1 {
+    text-align: center;
+    font-size: 24px   
 }
 
 div.section.different div.square div i {
-    width: 30px;
-    height: 30px;
-    padding: 33px;
+    width: 35px;
+    height: 35px;
+    padding: 35px;
     border-radius: 65px;
-    border: 2px solid #404040;
+    border: 1.5px solid #404040;
+    font-size: 2rem;
 }
 
 div.section.different div.square hr {
     width: 75px;
     height: 3px;
-    background-color: #fa5c4f;
+    background-color: #FFA300;
     border: none;
     margin: 20px auto;
-}
-
-div.section.different div.square h1 {
 }
 
 div.section.different div.square p {

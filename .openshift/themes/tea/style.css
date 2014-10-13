@@ -2426,6 +2426,51 @@ div.section.interested p {
     text-align: center;
 }
 
+div.section.title-translation {
+    background-color: #3A3939;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
+div.section.title-translation div.section-text h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+div.section.title-redaction {
+    background-color: #3A3939;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
+div.section.title-redaction div.section-text h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+div.section.title-proofreading {
+    background-color: #3A3939;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
+div.section.title-proofreading div.section-text h2 {
+    text-align: center;
+    color: #FFF;
+}
+
+div.section.label-translation {
+    background-color: #FFA300;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
+div.section.label-proofreading {
+    background-color: #FFA300;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
 div.section.translation{
     background-color: #F1F1F1;
 }

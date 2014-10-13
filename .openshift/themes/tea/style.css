@@ -2472,16 +2472,31 @@ div.section.label-proofreading {
 }
 
 div.section.translation{
-    background-color: #F1F1F1;
+    background-color: #white;
+    padding-bottom: 0rem;
+}
+
+div.section.translation div.section-text p {
+    text-align: center;
 }
 
 div.section.proofreading{
-    background-color: inherit;
+    background-color: white;
+    padding-bottom: 0rem;
+}
+
+div.section.proofreading div.section-text p {
+    text-align: center;
 }
 
 div.section.redaction-synthesis{
-    background-color: #20C05C;
-    color: white;
+    background-color: white;
+    color: black;
+    padding-bottom: 0rem;
+}
+
+div.section.redaction-synthesis div.section-text p {
+    text-align: center;
 }
 
 div.section-text{

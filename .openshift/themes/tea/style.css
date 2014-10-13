@@ -2303,9 +2303,8 @@ div.section.different div.square div {
     text-align: center;
 }
 
-div.section.different h1 {
-    text-align: center;
-    font-size: 24px   
+div.section.title-different h2 {
+    text-align: center;   
 }
 
 div.section.different div.square div i {
@@ -2333,8 +2332,38 @@ div.section.interested {
     color:white;
 }
 
+div.section.title-why {
+    background-color: #3A3939;
+    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+}
+
+div.section.title-why h2 {
+    text-align: center;
+}
+
 div.section.why {
     background-color: inherit;
+}
+
+div.section.why div.square div i {
+    width: 35px;
+    height: 35px;
+    padding: 35px;
+    border-radius: 65px;
+    border: 1.5px solid #404040;
+    font-size: 2rem;
+}
+
+div.section.why div.square hr {
+    width: 75px;
+    height: 3px;
+    background-color: #FFA300;
+    border: none;
+    margin: 20px auto;
+}
+
+div.section.why div.square p {
 }
 
 div.section.translation{

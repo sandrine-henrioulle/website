@@ -2262,10 +2262,15 @@ div.section.bio {
     color: white;
 }
 
+
 div.section.title-different {
     background-color: #3A3939;
     padding-bottom: 1.5rem;
     padding-top: 2rem;
+}
+
+div.section.title-different h2 {
+    text-align: center;   
 }
 
 div.section.title-different .section.text {
@@ -2301,10 +2306,6 @@ div.section.different div.square div {
     /* width: 150px; */
     /* height: 150px; */
     text-align: center;
-}
-
-div.section.title-different h2 {
-    text-align: center;   
 }
 
 div.section.different div.square div i {
@@ -2344,6 +2345,32 @@ div.section.title-why h2 {
 
 div.section.why {
     background-color: inherit;
+    padding-top: 1rem;
+}
+
+div.section.why div.square {
+   float: left;
+   width: 15rem;
+   display: inline-block;  
+    
+   width: 18%;  
+    
+   /* min-width: 250px; */  
+    
+   /* max-width: 300px; */  
+    margin: 20px;  padding: 10px;  
+    
+   text-align: center;  
+    vertical-align: top;
+   margin-left: 2rem;
+}
+
+div.section.why div.square div {
+    /* border: solid 2px black; */
+    /* border-radius: 50%; */ 
+    /* width: 150px; */
+    /* height: 150px; */
+    text-align: center;
 }
 
 div.section.why div.square div i {

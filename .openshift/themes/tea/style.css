@@ -2255,8 +2255,8 @@ div.section table td,div.section table th{
 
 div.section label {
     border-radius: 3px;
-    border: solid 1px #20C05C;
-    color: #20C05C;
+    border: solid 1px white;
+    color: white;
     padding: 3px;
     margin-left: 2px;
 }

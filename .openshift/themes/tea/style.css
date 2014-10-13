@@ -2239,7 +2239,7 @@ a#scroll-up:hover {
 div.section {
     text-align: center;
     padding-top: 3.4rem;
-    padding-bottom: 2.4rem;
+    padding-bottom: 3.4rem;
     background-color: #F1F1F1;
 }
 
@@ -2266,6 +2266,13 @@ div.section.bio {
     color: white;
 }
 
+div.section.bio h2 {
+    text-align: center;
+}
+
+div.section.bio p {
+    text-align: center;
+}
 
 div.section.title-different {
     background-color: #3A3939;
@@ -2291,7 +2298,6 @@ div.section.different div.square {
    float: left;
    width: 15rem;
    display: inline-block;  
-    
    width: 18%;  
     
    /* min-width: 250px; */  
@@ -2332,6 +2338,10 @@ div.section.different div.square hr {
 div.section.different div.square p {
 }
 
+div.section.different div.why-text {
+    display: inline-block;
+}
+
 div.section.interested {
     background-color: #FFA300;
     color:white;
@@ -2356,6 +2366,7 @@ div.section.why div.section-text p {
     text-align: center;
     font-weight: bold;
     font-size: 16px;
+    /* display: block; */
 }
 
 div.section.why div.square {
@@ -2405,6 +2416,14 @@ div.section.why div.square hr {
 }
 
 div.section.why div.square p {
+}
+
+div.section.interested h2 {
+    text-align: center;
+}
+
+div.section.interested p {
+    text-align: center;
 }
 
 div.section.translation{

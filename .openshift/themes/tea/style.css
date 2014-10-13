@@ -238,10 +238,12 @@ hr {
 ----------------------------------------------- */
 
 p {
-    line-height: 24px;
-    margin-bottom: 15px;
+    line-height: 28px;
+    /* margin-bottom: 14px; */
     font-family: 'Lato', sans-serif;
     font-size: 16px;
+    /* text-align: center; */
+    /* font-weight: bold; */
 }
 strong {
     font-weight: bold;
@@ -2348,21 +2350,30 @@ div.section.why {
     padding-top: 1rem;
 }
 
+div.section.why .section.text {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+
 div.section.why div.square {
    float: left;
    width: 15rem;
    display: inline-block;  
     
-   width: 18%;  
+   width: 14%;  
     
    /* min-width: 250px; */  
     
    /* max-width: 300px; */  
-    margin: 20px;  padding: 10px;  
+    margin: 20px;  
+   padding: 1px;  
     
    text-align: center;  
     vertical-align: top;
    margin-left: 2rem;
+   /* border-radius: 13px; */  
+   /* border: 1.5px solid #404040; */
 }
 
 div.section.why div.square div {
@@ -2376,9 +2387,9 @@ div.section.why div.square div {
 div.section.why div.square div i {
     width: 35px;
     height: 35px;
-    padding: 35px;
-    border-radius: 65px;
-    border: 1.5px solid #404040;
+    padding: 12px;
+    /* border-radius: 65px; */
+    /* border: 1.5px solid #404040; */
     font-size: 2rem;
 }
 

@@ -2462,7 +2462,7 @@ div.section.title-proofreading div.section-text h2 {
 
 div.section.label-translation {
     background-color: #FFA300;
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
     padding-top: 2rem;
 }
 
@@ -2472,7 +2472,7 @@ div.section.label-translation div.section-text {
 
 div.section.label-proofreading {
     background-color: #FFA300;
-    padding-bottom: 1.5rem;
+    padding-bottom: 3rem;
     padding-top: 2rem;
 }
 
@@ -2483,6 +2483,7 @@ div.section.label-proofreading div.section-text {
 div.section.translation{
     background-color: white;
     padding-bottom: 0rem;
+    padding-top: 2.3rem;
 }
 
 div.section.translation div.section-text p {
@@ -2493,7 +2494,7 @@ div.section.translation div.square {
    float: left;
    width: 15rem;
    display: inline-block;  
-   width: 18%;  
+   width: 25%;  
     margin: 20px;  padding: 10px;  
    text-align: center;  
     vertical-align: top;
@@ -2523,6 +2524,7 @@ div.section.transtional div.square p {
 div.section.proofreading{
     background-color: white;
     padding-bottom: 0rem;
+    padding-top: 2.3rem;
 }
 
 div.section.proofreading div.section-text p {
@@ -2537,7 +2539,7 @@ div.section.proofreading div.square {
    float: left;
    width: 15rem;
    display: inline-block;  
-   width: 18%;  
+   width: 25%;  
     margin: 20px;  padding: 10px;  
    text-align: center;  
     vertical-align: top;
@@ -2568,6 +2570,7 @@ div.section.redaction-synthesis{
     background-color: white;
     color: black;
     padding-bottom: 0rem;
+    padding-top: 2.3rem;
 }
 
 div.section.redaction-synthesis div.section-text p {
@@ -2582,7 +2585,7 @@ div.section.redaction-synthesis div.square {
    float: left;
    width: 15rem;
    display: inline-block;  
-   width: 18%;  
+   width: 25%;  
     margin: 20px;  padding: 10px;  
    text-align: center;  
     vertical-align: top;

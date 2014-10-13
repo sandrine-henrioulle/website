@@ -2682,14 +2682,14 @@ div.section div.pricing ul li h4{
 div.section div.contact-info {
     text-align: center;
     max-width: 50%;
-    margin-top: 3.4rem;
+    margin-top: 5.4rem;
 }
 
 div.section div.contact-info p{
     border-radius: 6px;
     border: solid 1px #fff;
     color: #fff;
-    padding: 3px;
+    padding: 3px 10px;
     margin-left: 25px;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.42);

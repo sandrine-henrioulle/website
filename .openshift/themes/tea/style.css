@@ -2465,10 +2465,18 @@ div.section.label-translation {
     padding-top: 2rem;
 }
 
+div.section.label-translation div.section-text {
+    text-align: center;
+}
+
 div.section.label-proofreading {
     background-color: #FFA300;
     padding-bottom: 1.5rem;
     padding-top: 2rem;
+}
+
+div.section.label-proofreading div.section-text {
+    text-align: center;
 }
 
 div.section.translation{
@@ -2502,7 +2510,7 @@ div.section.redaction-synthesis div.section-text p {
 div.section-text{
     width: 80%;
     display:inline-block;
-    text-align: left;
+    /* text-align: center; */
 }
 
 div.section-text pre{

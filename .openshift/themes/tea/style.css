@@ -2399,6 +2399,7 @@ div.section.why div.square hr {
     background-color: #FFA300;
     border: none;
     margin: 20px auto;
+    /* padding: 2px; */
 }
 
 div.section.why div.square p {

@@ -2379,7 +2379,8 @@ div.section.why div.square {
    /* min-width: 250px; */  
     
    /* max-width: 300px; */  
-    margin: 20px;  
+    
+   margin: 30px;  
    padding: 1px;  
     
    text-align: center;  
@@ -2488,6 +2489,37 @@ div.section.translation div.section-text p {
     text-align: center;
 }
 
+div.section.translation div.square {
+   float: left;
+   width: 15rem;
+   display: inline-block;  
+   width: 18%;  
+    margin: 20px;  padding: 10px;  
+   text-align: center;  
+    vertical-align: top;
+   margin-left: 2rem;
+}
+
+div.section.translation div.square div {
+    /* border: solid 2px black; */
+    /* border-radius: 50%; */ 
+    /* width: 150px; */
+    /* height: 150px; */
+    text-align: center;
+}
+
+div.section.translation div.square hr {
+    width: 75px;
+    height: 3px;
+    background-color: #FFA300;
+    border: none;
+    margin: 20px auto;
+}
+
+div.section.transtional div.square p {
+}
+
+
 div.section.proofreading{
     background-color: white;
     padding-bottom: 0rem;
@@ -2496,6 +2528,41 @@ div.section.proofreading{
 div.section.proofreading div.section-text p {
     text-align: center;
 }
+
+div.section.proofreading div.section-text p {
+    text-align: center;
+}
+
+div.section.proofreading div.square {
+   float: left;
+   width: 15rem;
+   display: inline-block;  
+   width: 18%;  
+    margin: 20px;  padding: 10px;  
+   text-align: center;  
+    vertical-align: top;
+   margin-left: 2rem;
+}
+
+div.section.proofreading div.square div {
+    /* border: solid 2px black; */
+    /* border-radius: 50%; */ 
+    /* width: 150px; */
+    /* height: 150px; */
+    text-align: center;
+}
+
+div.section.proofreading div.square hr {
+    width: 75px;
+    height: 3px;
+    background-color: #FFA300;
+    border: none;
+    margin: 20px auto;
+}
+
+div.section.proofreading div.square p {
+}
+
 
 div.section.redaction-synthesis{
     background-color: white;
@@ -2506,6 +2573,41 @@ div.section.redaction-synthesis{
 div.section.redaction-synthesis div.section-text p {
     text-align: center;
 }
+
+div.section.redaction-synthesis div.section-text p {
+    text-align: center;
+}
+
+div.section.redaction-synthesis div.square {
+   float: left;
+   width: 15rem;
+   display: inline-block;  
+   width: 18%;  
+    margin: 20px;  padding: 10px;  
+   text-align: center;  
+    vertical-align: top;
+   margin-left: 2rem;
+}
+
+div.section.redaction-synthesis div.square div {
+    /* border: solid 2px black; */
+    /* border-radius: 50%; */ 
+    /* width: 150px; */
+    /* height: 150px; */
+    text-align: center;
+}
+
+div.section.redaction-synthesis div.square hr {
+    width: 75px;
+    height: 3px;
+    background-color: #FFA300;
+    border: none;
+    margin: 20px auto;
+}
+
+div.section.redaction-synthesis div.square p {
+}
+
 
 div.section-text{
     width: 80%;

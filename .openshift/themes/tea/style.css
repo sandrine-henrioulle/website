@@ -202,9 +202,11 @@ h6 {
     font-family: 'Lato', sans-serif;
 }
 h1 {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     line-height: 36px;
+    padding-bottom: 8px;
+    color: black;
 }
 h2 {
     font-size: 30px;
@@ -2275,7 +2277,7 @@ div.section.title-different h2 {
     text-align: center;   
 }
 
-div.section.title-different .section.text {
+div.section.title-different .section-text {
     text-align: center;
     color: white;
 }
@@ -2350,7 +2352,7 @@ div.section.why {
     padding-top: 1rem;
 }
 
-div.section.why .section.text {
+div.section.why div.section-text p {
     text-align: center;
     font-weight: bold;
     font-size: 16px;
@@ -2391,6 +2393,7 @@ div.section.why div.square div i {
     /* border-radius: 65px; */
     /* border: 1.5px solid #404040; */
     font-size: 2rem;
+    padding-bottom: 18px;
 }
 
 div.section.why div.square hr {
@@ -2399,7 +2402,6 @@ div.section.why div.square hr {
     background-color: #FFA300;
     border: none;
     margin: 20px auto;
-    /* padding: 2px; */
 }
 
 div.section.why div.square p {

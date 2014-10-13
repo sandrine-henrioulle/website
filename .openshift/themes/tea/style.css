@@ -2488,6 +2488,7 @@ div.section.translation{
 
 div.section.translation div.section-text p {
     text-align: center;
+    clear:both
 }
 
 div.section.translation div.square {
@@ -2517,7 +2518,7 @@ div.section.translation div.square hr {
     margin: 20px auto;
 }
 
-div.section.transtional div.square p {
+div.section.translation div.square p {
 }
 
 
@@ -2529,10 +2530,7 @@ div.section.proofreading{
 
 div.section.proofreading div.section-text p {
     text-align: center;
-}
-
-div.section.proofreading div.section-text p {
-    text-align: center;
+    clear:both;
 }
 
 div.section.proofreading div.square {
@@ -2575,10 +2573,7 @@ div.section.redaction-synthesis{
 
 div.section.redaction-synthesis div.section-text p {
     text-align: center;
-}
-
-div.section.redaction-synthesis div.section-text p {
-    text-align: center;
+    clear:both;
 }
 
 div.section.redaction-synthesis div.square {

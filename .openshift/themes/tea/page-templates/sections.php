@@ -30,7 +30,7 @@
 
                         foreach($all_wp_pages as $index=>$child_page){
                           ?>
-                            <div class="section <?php echo strtolower($child_page->post_title)?>" name="<?php echo 'section_'.$all_wp_pages[$index+1]->ID;?>">
+                            <div class="section <?php echo strtolower($child_page->post_title)?>" id="<?php echo 'section_'.$all_wp_pages[$index+1]->ID;?>">
                                 <div class="section-text">
                                     <?php 
                                     echo $child_page->post_content; 

@@ -332,6 +332,15 @@ class spacious_service_widget extends WP_Widget {
 			<?php 
 			$j = 1;
  			while( $get_featured_pages->have_posts() ):$get_featured_pages->the_post();
+                
+                $parentPageId = $get_featured_pages->the_post()->post_parent;
+                
+                var_dump($get_featured_pages->the_post());
+                var_dump($parentPageId);
+                var_dump( get_post_ancestors( get_the_ID() ) );
+                var_dump( get_permalink( get_post_ancestors( get_the_ID() )->ID ) );
+                
+                  
 				$page_title = get_the_title();
 				if( $j % 2 == 1 && $j > 1 ) {
 					$service_class = "tg-one-third tg-after-two-blocks-clearfix";

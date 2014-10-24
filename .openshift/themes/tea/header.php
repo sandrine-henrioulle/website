@@ -7,7 +7,7 @@
 
     <head>
       <meta charset="<?php bloginfo( 'charset' ); ?>" />
-      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
       <title>
         <?php /** * Print the <title>tag based on what is being viewed. */ wp_title( '|', true, 'right' ); ?>
       </title>

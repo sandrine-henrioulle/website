@@ -2327,10 +2327,14 @@ div.section.different div.square hr {
   border: none;
   margin: 20px auto;
 }
-div.section.different div.square p {} div.section.different div.why-text {
-  display: inline-block;
+div.why-text {
+    display: inline-block;
   clear:both;
 }
+div.section.different div.square p {} div.section.different div.why-text {
+  display: inline-block;
+}
+
 div.section.interested {
   background-color: #FFA300;
   color: white;

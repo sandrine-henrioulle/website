@@ -333,12 +333,13 @@ class spacious_service_widget extends WP_Widget {
 			$j = 1;
  			while( $get_featured_pages->have_posts() ):$get_featured_pages->the_post();
                 
-                $parentPageId = $get_featured_pages->the_post()->post_parent;
+                $parentPageId = get_post_ancestors( get_the_ID() )[0] ;
+                $parentPermalink = get_permalink( $parentPageId );
                 
-                var_dump($get_featured_pages->the_post());
-                var_dump($parentPageId);
+                var_dump( get_the_ID() );
                 var_dump( get_post_ancestors( get_the_ID() ) );
-                var_dump( get_permalink( get_post_ancestors( get_the_ID() )->ID ) );
+                var_dump( get_permalink( get_post_ancestors( get_the_ID() )[0] ) );
+                var_dump($parentPageId);
                 
                   
 				$page_title = get_the_title();
@@ -360,10 +361,10 @@ class spacious_service_widget extends WP_Widget {
 						echo'<div class="service-image">'.get_the_post_thumbnail( $post->ID, 'featured' ).'</div>';
 					}
 					?>
-					<?php echo $before_title; ?><a title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>"><?php echo $page_title; ?></a><?php echo $after_title; ?>
+					<?php echo $before_title; ?><a title="<?php the_title_attribute(); ?>" href="<?php echo $parentPermalink ?>#<?php echo get_the_ID() ?>"><?php echo $page_title; ?></a><?php echo $after_title; ?>
 					<?php the_excerpt(); ?>
 					<div class="more-link-wrap">
-						<a class="more-link" title="<?php the_title_attribute(); ?>" href="<?php the_permalink(); ?>"><?php _e( 'Read more','spacious' ); ?></a>	
+						<a class="more-link" title="<?php the_title_attribute(); ?>" href="<?php echo $parentPermalink ?>#<?php echo get_the_ID() ?>"><?php echo $page_title; ?>"><?php _e( 'Read more','spacious' ); ?></a>	
 					</div>					
 				</div>
 				<?php $j++; ?>					

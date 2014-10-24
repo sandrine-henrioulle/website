@@ -2329,6 +2329,7 @@ div.section.different div.square hr {
 }
 div.section.different div.square p {} div.section.different div.why-text {
   display: inline-block;
+  clear:both;
 }
 div.section.interested {
   background-color: #FFA300;

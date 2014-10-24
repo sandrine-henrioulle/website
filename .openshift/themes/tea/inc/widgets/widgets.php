@@ -359,7 +359,7 @@ class spacious_service_widget extends WP_Widget {
 					<?php echo $before_title; ?><a title="<?php the_title_attribute(); ?>" href="<?php echo $parentPermalink ?>#<?php echo 'section_'.get_the_ID() ?>"><?php echo $page_title; ?></a><?php echo $after_title; ?>
 					<?php the_excerpt(); ?>
 					<div class="more-link-wrap">
-						<a class="more-link" title="<?php the_title_attribute(); ?>" href="<?php echo $parentPermalink ?>#<?php echo get_the_ID() ?>"><?php echo $page_title; ?>"><?php _e( 'Read more','spacious' ); ?></a>	
+						<a class="more-link" title="<?php the_title_attribute(); ?>" href="<?php echo $parentPermalink ?>#<?php echo get_the_ID() ?>"><?php _e( 'Read more','spacious' ); ?></a>	
 					</div>					
 				</div>
 				<?php $j++; ?>					

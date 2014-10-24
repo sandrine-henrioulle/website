@@ -39,8 +39,7 @@
                         foreach($all_wp_pages as $child_page){
                           //if($child_page->post_parent == $parentPageId){
                           ?>
-                            var_dump($child_page);
-                            <div class="section <?php echo strtolower($child_page->post_title)?>" id="<?php echo $child_page->ID;?>">
+                            <div class="section <?php echo strtolower($child_page->post_title)?>" name="<?php echo $child_page->ID;?>">
                                 <div class="section-text">
                                     <?php 
                                     echo $child_page->post_content; 

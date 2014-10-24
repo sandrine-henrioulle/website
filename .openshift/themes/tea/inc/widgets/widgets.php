@@ -336,11 +336,6 @@ class spacious_service_widget extends WP_Widget {
                 $parentPageId = get_post_ancestors( get_the_ID() )[0] ;
                 $parentPermalink = get_permalink( $parentPageId );
                 
-                var_dump( get_the_ID() );
-                var_dump( get_post_ancestors( get_the_ID() ) );
-                var_dump( get_permalink( get_post_ancestors( get_the_ID() )[0] ) );
-                var_dump($parentPageId);
-                
                   
 				$page_title = get_the_title();
 				if( $j % 2 == 1 && $j > 1 ) {

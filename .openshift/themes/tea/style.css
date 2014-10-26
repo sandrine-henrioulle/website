@@ -2263,11 +2263,14 @@ div.section table th {
   background: #fff;
 }
 div.section label {
+  
+  line-height: 40px;
   border-radius: 3px;
   border: solid 1px white;
   color: white;
   padding: 3px;
   margin-left: 2px;
+  /* margin-bottom: 2px; */
 }
 div.section.bio {
   background-color: #FFA300;
@@ -2437,8 +2440,8 @@ div.section.title-proofreading div.section-text h2 {
 }
 div.section.label-translation {
   background-color: #FFA300;
-  padding-bottom: 3rem;
-  padding-top: 2rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 div.section.label-translation div.section-text {
   text-align: center;

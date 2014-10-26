@@ -2296,8 +2296,7 @@ div.section.different {
   padding-top: 1rem;
 }
 div.section.different div.square {
-  float: left;
-  width: 15rem;
+  /*float: left;*/
   display: inline-block;
   width: 220px;
   margin: 20px;
@@ -2397,7 +2396,13 @@ div.section.why div.square hr {
   border: none;
   margin: 20px auto;
 }
-div.section.why div.square p {} div.section.interested h2 {
+div.section.why div.square p {} 
+
+div.section.why div.why-text {
+  clear:both;
+}
+
+div.section.interested h2 {
   text-align: center;
 }
 div.section.interested p {

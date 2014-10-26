@@ -2065,6 +2065,9 @@ a#scroll-up:hover {
   .tg-after-three-blocks-clearfix {
     clear: none;
   }
+  #main {
+    padding-bottom: 382px;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 900px) {
   #featured-slider .slider-title-head {
@@ -2296,14 +2299,11 @@ div.section.different div.square {
   float: left;
   width: 15rem;
   display: inline-block;
-  width: 18%;
-  /* min-width: 250px; */
-  /* max-width: 300px; */
+  width: 220px;
   margin: 20px;
   padding: 10px;
   text-align: center;
   vertical-align: top;
-  margin-left: 2rem;
 }
 div.section.different div.square div {
   /* border: solid 2px black; */
@@ -2327,12 +2327,12 @@ div.section.different div.square hr {
   border: none;
   margin: 20px auto;
 }
-div.why-text {
-    display: inline-block;
-  clear:both;
-}
-div.section.different div.square p {} div.section.different div.why-text {
+
+div.section.different div.square p {} 
+
+div.section.different div.why-text {
   display: inline-block;
+  clear:both;
 }
 
 div.section.interested {
@@ -2358,19 +2358,21 @@ div.section.why div.section-text p {
   /* display: block; */
 }
 div.section.why div.square {
+
+
   float: left;
-  width: 15rem;
   display: inline-block;
-  width: 14%;
+  width: 162px;
   /* min-width: 250px; */
   /* max-width: 300px; */
   margin: 30px;
-  padding: 1px;
+  padding: 2px;
   text-align: center;
   vertical-align: top;
-  margin-left: 2rem;
+  /* margin-left: 2rem; */
   /* border-radius: 13px; */
   /* border: 1.5px solid #404040; */
+
 }
 div.section.why div.square div {
   /* border: solid 2px black; */

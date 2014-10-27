@@ -554,14 +554,15 @@ p img {} img#wpstats {
 
 /* =BODY 
 ----------------------------------------------- */
-html,body {
-  height:100%;
+
+html,
+body {
+  height: 100%;
 }
 body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 #page {
   max-width: 1268px;
   margin: 0 auto;
@@ -569,7 +570,7 @@ body {
   box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
   /* #TEA */
   min-height: 100%;
-  position: relative;      
+  position: relative;
 }
 .wide-978,
 .wide-1218 {
@@ -1020,7 +1021,7 @@ li.default-menu {
 .sticky {} #main {
   /*padding: 40px 0 10px 0;*/
   padding: 0;
-  padding-bottom:223px;
+  padding-bottom: 223px;
 }
 .widget_service_block {
   margin-bottom: 30px;
@@ -1672,7 +1673,8 @@ li.default-menu {
 }
 /* =FOOTER WIDGET AREA 
 ----------------------------------------------- */
-footer{
+
+footer {
   position: absolute;
   width: 100%;
   bottom: 0;
@@ -2007,25 +2009,6 @@ a#scroll-up:hover {
   .call-to-action-button {
     width: 93%;
   }
-  .footer-socket-wrapper .copyright {
-    float: none;
-    max-width: 100%;
-    text-align: center;
-    margin-bottom: 5px;
-  }
-  .footer-socket-wrapper .small-menu {
-    float: none;
-    text-align: center;
-  }
-  .footer-socket-wrapper .small-menu li {
-    float: none;
-    display: inline;
-  }
-  .footer-socket-wrapper .small-menu a {
-    float: none;
-    display: inline;
-    padding: 5px 5px 0;
-  }
   .small-menu li.default-menu,
   li.default-menu {
     display: none;
@@ -2064,9 +2047,6 @@ a#scroll-up:hover {
   }
   .tg-after-three-blocks-clearfix {
     clear: none;
-  }
-  #main {
-    padding-bottom: 382px;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 900px) {
@@ -2263,7 +2243,6 @@ div.section table th {
   background: #fff;
 }
 div.section label {
-  
   line-height: 40px;
   border-radius: 3px;
   border: solid 1px white;
@@ -2329,14 +2308,10 @@ div.section.different div.square hr {
   border: none;
   margin: 20px auto;
 }
-
-div.section.different div.square p {} 
-
-div.section.different div.why-text {
+div.section.different div.square p {} div.section.different div.why-text {
   display: inline-block;
-  clear:both;
+  clear: both;
 }
-
 div.section.interested {
   background-color: #FFA300;
   color: white;
@@ -2360,8 +2335,6 @@ div.section.why div.section-text p {
   /* display: block; */
 }
 div.section.why div.square {
-
-
   float: left;
   display: inline-block;
   width: 162px;
@@ -2374,7 +2347,6 @@ div.section.why div.square {
   /* margin-left: 2rem; */
   /* border-radius: 13px; */
   /* border: 1.5px solid #404040; */
-
 }
 div.section.why div.square div {
   /* border: solid 2px black; */
@@ -2399,12 +2371,9 @@ div.section.why div.square hr {
   border: none;
   margin: 20px auto;
 }
-div.section.why div.square p {} 
-
-div.section.why div.why-text {
-  clear:both;
+div.section.why div.square p {} div.section.why div.why-text {
+  clear: both;
 }
-
 div.section.interested h2 {
   text-align: center;
 }

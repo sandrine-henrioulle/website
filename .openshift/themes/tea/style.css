@@ -555,11 +555,12 @@ p img {} img#wpstats {
 /* =BODY 
 ----------------------------------------------- */
 
-html,
+html {
+   height: 100%;
+}
+
 body {
   height: 100%;
-}
-body {
   padding-top: 30px;
   padding-bottom: 30px;
 }
@@ -568,7 +569,6 @@ body {
   margin: 0 auto;
   background-color: #FFFFFF;
   box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
-  /* #TEA */
   min-height: 100%;
   position: relative;
 }
@@ -1021,7 +1021,6 @@ li.default-menu {
 .sticky {} #main {
   /*padding: 40px 0 10px 0;*/
   padding: 0;
-  height: 100%;
   padding-bottom: 169px;
 }
 .widget_service_block {
@@ -2601,11 +2600,11 @@ div.section div.contact-info p i {
 }
 
 div.section.contact {
+  position: absolute;
   background: url(/wp-content/themes/tea/inc/images/city_contact.jpg) #5f5e5e;
-  background-size: 110%;
-  background-position: 4% -181px;
-  background-repeat: no-repeat;
-  background-color: #20C05C;
+  background-size: cover;
+  /*background-position: 4% -181px;*/
+  /*background-repeat: no-repeat;*/
   color: white;
   height: 100%
 }

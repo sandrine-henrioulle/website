@@ -1975,7 +1975,6 @@ a#scroll-up:hover {
 @media screen and (max-width: 1308px) {
   #page {
     width: 97%;
-    height: 100%;
   }
   .wide-1218 #page,
   .wide-978 #page {
@@ -2544,7 +2543,7 @@ div.section div.notice {
   clear: both;
 }
 .inner-wrap-content {
-  height: 100%;
+  /*height: 100%;*/
 } 
 
 div.section div.pricing {
@@ -2606,7 +2605,8 @@ div.section.contact {
   /*background-position: 4% -181px;*/
   /*background-repeat: no-repeat;*/
   color: white;
-  height: 100%
+  min-height: 100%;
+  width:100%;
 }
 div.section.contact h2 {
   font-size: 37px;

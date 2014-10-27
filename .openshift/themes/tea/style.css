@@ -1021,6 +1021,7 @@ li.default-menu {
 .sticky {} #main {
   /*padding: 40px 0 10px 0;*/
   padding: 0;
+  height: 100%;
   padding-bottom: 169px;
 }
 .widget_service_block {
@@ -2535,11 +2536,7 @@ div.section.redaction-synthesis div.square p {} div.section-text {
   /* text-align: center; */
 }
 div.section-text pre {} 
-div.section.contact {
-  min-height: 100%;
-  background-color: #20C05C;
-  color: white;
-}
+
 div.section div.notice {
   margin-bottom: 1rem;
   font-style: italic;
@@ -2602,12 +2599,15 @@ div.section div.contact-info p {
 div.section div.contact-info p i {
   padding-right: 1rem;
 }
+
 div.section.contact {
   background: url(/wp-content/themes/tea/inc/images/city_contact.jpg) #5f5e5e;
   background-size: 110%;
   background-position: 4% -181px;
   background-repeat: no-repeat;
-  height: 14rem;
+  background-color: #20C05C;
+  color: white;
+  height: 100%
 }
 div.section.contact h2 {
   font-size: 37px;

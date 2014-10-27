@@ -20,7 +20,8 @@
       <?php do_action( 'before' ); ?>
       <div id="page" class="hfeed site">
         <?php do_action( 'spacious_before_header' ); ?>
-        <header id="masthead" class="site-header clearfix">
+        <header id="masthead" class="site-header">
+        <!-- <header id="masthead" class="site-header clearfix"> -->
 
           <?php if( of_get_option( 'spacious_header_image_position', 'above' )=='above' ) { spacious_render_header_image(); } ?>
 
@@ -83,5 +84,6 @@
         </header>
         <?php do_action( 'spacious_after_header' ); ?>
         <?php do_action( 'spacious_before_main' ); ?>
-        <div id="main" class="clearfix">
+        <div id="main">
+          <!-- <div id="main" class="clearfix"> -->
           <div class="inner-wrap-content">

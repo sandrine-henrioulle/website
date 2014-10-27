@@ -1021,7 +1021,7 @@ li.default-menu {
 .sticky {} #main {
   /*padding: 40px 0 10px 0;*/
   padding: 0;
-  padding-bottom: 223px;
+  padding-bottom: 169px;
 }
 .widget_service_block {
   margin-bottom: 30px;
@@ -1160,6 +1160,7 @@ li.default-menu {
 .narrow-978 .widget_featured_post .meta {
   font-size: 11px;
 }
+
 /* =META 
 ----------------------------------------------- */
 
@@ -1338,6 +1339,7 @@ li.default-menu {
   margin: 0.8075rem 0;
 }
 .gallery-caption {}
+
 /* =WORDPRESS GALLERY SUPPORT
 ----------------------------------------------- */
 

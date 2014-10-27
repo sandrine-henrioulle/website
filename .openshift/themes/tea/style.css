@@ -1975,6 +1975,7 @@ a#scroll-up:hover {
 @media screen and (max-width: 1308px) {
   #page {
     width: 97%;
+    height: 100%;
   }
   .wide-1218 #page,
   .wide-978 #page {
@@ -2533,7 +2534,9 @@ div.section.redaction-synthesis div.square p {} div.section-text {
   display: inline-block;
   /* text-align: center; */
 }
-div.section-text pre {} div.section.contact {
+div.section-text pre {} 
+div.section.contact {
+  min-height: 100%;
   background-color: #20C05C;
   color: white;
 }
@@ -2544,7 +2547,11 @@ div.section div.notice {
   padding-bottom: 1.4rem;
   clear: both;
 }
-.inner-wrap-content {} div.section div.pricing {
+.inner-wrap-content {
+  height: 100%;
+} 
+
+div.section div.pricing {
   text-align: center;
 }
 div.section div.pricing ul {

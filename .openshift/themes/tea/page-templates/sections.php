@@ -15,7 +15,7 @@
 	<?php do_action( 'spacious_before_body_content' ); ?>
 
 	<!-- <div id="primary"> -->
-		<div id="content">
+
         <!-- <div id="content" class="clearfix"> -->
 			<?php while ( have_posts() ) : the_post(); ?>
                
@@ -44,7 +44,7 @@
                         ?>
 			<?php endwhile; ?>
 
-		</div><!-- #content -->
+
 	<!-- </div> --> <!-- #primary -->
 	
 	<?php spacious_sidebar_select(); ?>

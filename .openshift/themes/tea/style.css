@@ -2544,6 +2544,7 @@ div.section div.notice {
 }
 .inner-wrap-content {
   /*height: 100%;*/
+    position: relative;
 } 
 
 div.section div.pricing {
@@ -2599,6 +2600,7 @@ div.section div.contact-info p i {
 }
 
 div.section.contact {
+  top:0;
   position: absolute;
   background: url(/wp-content/themes/tea/inc/images/city_contact.jpg) #5f5e5e;
   background-size: cover;

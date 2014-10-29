@@ -1021,7 +1021,7 @@ li.default-menu {
 .sticky {} #main {
   /*padding: 40px 0 10px 0;*/
   padding: 0;
-  padding-bottom: 138px;
+  padding-bottom: 139px;
   position: relative;
 }
 .widget_service_block {
@@ -1708,7 +1708,7 @@ footer {
   color: #0FBE7C !important;
 }
 #colophon .widget {
-  padding-bottom: 14px;
+  padding-bottom: 0px;
 }
 #colophon .widget-title {
   font-size: 22px;
@@ -1717,7 +1717,7 @@ footer {
 #colophon,
 #colophon p {
   font-size: 14px;
-  line-height: 18px;
+  line-height: 24px;
 }
 /* =FOOTER SOCKET AREA 
 ----------------------------------------------- */
@@ -2283,9 +2283,9 @@ div.section.different {
 div.section.different div.square {
   /*float: left;*/
   display: inline-block;
-  width: 220px;
-  margin: 20px;
-  padding: 10px;
+width: 13rem;
+margin: 20px 18px;
+padding: 10px 6px;
   text-align: center;
   vertical-align: top;
 }
@@ -2340,12 +2340,13 @@ div.section.why div.section-text p {
 div.section.why div.square {
   float: left;
   display: inline-block;
-  width: 162px;
-  /* min-width: 250px; */
-  /* max-width: 300px; */
-  margin: 30px;
+  width: 17%;
+  margin: 30px 1%;
   padding: 2px;
   text-align: center;
+  
+
+  
   vertical-align: top;
   /* margin-left: 2rem; */
   /* border-radius: 13px; */
@@ -2603,7 +2604,7 @@ div.section div.contact-info p i {
 }
 
 div.section.contact {
-  top:0;
+  /*top:0;*/
   position: fixed;
   background: url(/wp-content/themes/tea/inc/images/city_contact.jpg) #5f5e5e;
   background-size: 100% 100%;

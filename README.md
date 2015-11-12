@@ -1,4 +1,4 @@
-Wordpress on OpenShift
+Wordpress on OpenShift browse on www.teatranslation.com
 ======================
 
 This git repository helps you get up and running quickly w/ a Wordpress installation

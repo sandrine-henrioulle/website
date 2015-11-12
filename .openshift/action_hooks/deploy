@@ -70,8 +70,11 @@ ln -sf ${OPENSHIFT_DATA_DIR}uploads   ${OPENSHIFT_REPO_DIR}php/wp-content/
 echo "Copying WordPress config from .openshift/config"
 cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/wp-config.php ${dest_dir}/wp-config.php
 
-echo "Copying Sitemap.xml from .openshift/ to " . ${dest_dir}
+echo "Copying Sitemap.xml from .openshift/"
 cp -f ${OPENSHIFT_REPO_DIR}.openshift/sitemap.xml ${dest_dir}/sitemap.xml
+
+echo "Copying robot.txt from .openshift/"
+cp -f ${OPENSHIFT_REPO_DIR}.openshift/robot.txt ${dest_dir}/robot.txt
 
 
 # Use repository htaccess if exists

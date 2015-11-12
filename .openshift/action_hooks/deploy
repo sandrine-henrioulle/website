@@ -74,7 +74,7 @@ echo "Copying Sitemap.xml from .openshift/"
 cp -f ${OPENSHIFT_REPO_DIR}.openshift/sitemap.xml ${dest_dir}/sitemap.xml
 
 echo "Copying robot.txt from .openshift/"
-cp -f ${OPENSHIFT_REPO_DIR}.openshift/robot.txt ${dest_dir}/robot.txt
+cp -f ${OPENSHIFT_REPO_DIR}.openshift/robots.txt ${dest_dir}/robots.txt
 
 
 # Use repository htaccess if exists

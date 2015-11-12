@@ -67,11 +67,14 @@ ln -sf ${OPENSHIFT_DATA_DIR}languages    ${OPENSHIFT_REPO_DIR}php/wp-content/
 ln -sf ${OPENSHIFT_DATA_DIR}uploads   ${OPENSHIFT_REPO_DIR}php/wp-content/
 
 # Copy the OpenShift wp-config.php file
-
+echo "Copying WordPress config from .openshift/config"
 cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/wp-config.php ${dest_dir}/wp-config.php
 
+echo "Copying Sitemap.xml from .openshift/ to " . ${dest_dir}
+cp -f ${OPENSHIFT_REPO_DIR}.openshift/sitemap.xml ${dest_dir}/sitemap.xml
 
-# Use repository htaccess if exists 
+
+# Use repository htaccess if exists
 if [  -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ]; then
   cp -f ${OPENSHIFT_REPO_DIR}.openshift/config/.htaccess ${dest_dir}/.htaccess
 fi
